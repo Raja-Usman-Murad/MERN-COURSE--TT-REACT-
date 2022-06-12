@@ -1,0 +1,121 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+/* *************NAVBAR STYLING START***************  */
+#logohalfcolorchange {
+  color: #228cd7;
+}
+.navbar {
+  background-color: white !important;
+}
+#navbar-brand {
+  font-size: 2.2rem !important;
+  color: #030214 !important;
+}
+.navbar a {
+  font-size: 1.3rem !important;
+}
+.menu_active {
+  font-weight: bold !important;
+  border-bottom: 1px solid #565387;
+}
+.navbar a:hover {
+  color: #3498db !important;
+}
+/* *************NAVBAR STYLING END***************  */
+/* *************Home STYLING Start***************  */
+#homestyling1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #caceda 50%, rgb(228, 225, 225) 50%);
+  width: 100%;
+  height: 50vh;
+}
+#homestyling {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#hometitleheading {
+  font-weight: 900;
+}
+/* *************Home STYLING END***************  */
+/* *************REGISTARTION AND LOGIN STYLING START***************  */
+#registration_main_container {
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+#text_shadow {
+  /* box-shadow: 3px 5px 2px 2px #c0c0c1, -5px 0px 2px 2px #c0c0c1; */
+  margin-bottom: 5px;
+  border-radius: 20px;
+}
+#signup-heading {
+  font-weight: bolder;
+}
+input {
+  border: none !important;
+  border-bottom: 1px solid black !important;
+}
+/* *************REGISTARTION AND LOGIN STYLING END***************  */
+/* *************Contact PAGE STYLING START***************  */
+#contact_top_divs {
+  border: 1px solid grey;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 3px 5px 2px 2px #c0c0c1, -5px 0px 2px 2px #c0c0c1;
+  width: auto;
+  overflow-x: scroll;
+}
+/* *************Contact PAGE STYLING END***************  */
+/* *************ERROR PAGE STYLING START***************  */
+.errorpageimg {
+  height: 270px;
+  transition: all;
+  animation: updown 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes updown {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+@keyframes updown {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+/* *************ERROR PAGE STYLING END***************  */
+
+#footer {
+  background-color: #030214;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  margin-top: auto !important;
+}
+#footer p {
+  /* line-height: 50px !important; */
+  margin: 0;
+}
